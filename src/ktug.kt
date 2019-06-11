@@ -57,14 +57,16 @@ fun main() {
     val startTime = Time(15, 0)
 
     val schedule = listOf(
+        Break(30.m),
         Speaker(name = "Florina", duration = 30.m, title = "Extend your vocabulary with Kotlin language features"),
         Speaker(name = "Svetlana Isakova", duration = 45.m, title = "New Type Inference and Related Language Features"),
-        Break(15.m),
+        Break(20.m),
         Speaker(name = "Shagen", duration = 30.m, title = "What's new in Kotlin/JS interop"),
         Speaker(name = "Marcin", duration = 40.m.TBD, title = "Understanding Kotlin coroutines"),
-        Break(15.m),
+        Break(20.m),
         Speaker(name = "Wojtek", duration = 45.m.TBD, title = "Kotlin Multiplatform"),
-        Speaker(name = "Jossi", duration = 20.m, title = "Building SDKs - The Kotlin Way")
+        Speaker(name = "Jossi", duration = 20.m, title = "Building SDKs - The Kotlin Way"),
+        Break(30.m)
     )
 
     var time = startTime
