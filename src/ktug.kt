@@ -75,4 +75,5 @@ fun main() {
         time += slot.duration
     }
 
+    println("$time THE END")
 }
