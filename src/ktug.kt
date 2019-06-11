@@ -4,7 +4,7 @@ sealed class Slot {
     fun name(): String {
         fun offset(index: Int) = when (index) {
             0 -> 20
-            1 -> 30
+            1 -> 12
             else -> 0
         }
 
@@ -60,12 +60,12 @@ fun main() {
         Break(30.m),
         Speaker(name = "Florina", duration = 30.m, title = "Extend your vocabulary with Kotlin language features"),
         Speaker(name = "Svetlana Isakova", duration = 45.m, title = "New Type Inference and Related Language Features"),
-        Break(20.m),
+        Break(25.m),
         Speaker(name = "Shagen", duration = 30.m, title = "What's new in Kotlin/JS interop"),
-        Speaker(name = "Marcin", duration = 40.m.TBD, title = "Understanding Kotlin coroutines"),
-        Break(20.m),
-        Speaker(name = "Wojtek", duration = 45.m.TBD, title = "Kotlin Multiplatform"),
         Speaker(name = "Jossi", duration = 20.m, title = "Building SDKs - The Kotlin Way"),
+        Break(45.m),
+        Speaker(name = "Wojtek", duration = 45.m.TBD, title = "Kotlin Multiplatform"),
+        Speaker(name = "Marcin", duration = 40.m.TBD, title = "Understanding Kotlin coroutines"),
         Break(30.m)
     )
 
